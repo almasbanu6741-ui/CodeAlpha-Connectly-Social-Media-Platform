@@ -99,11 +99,11 @@ npm install
 3. Start the Server
 Run: node server.js
 4. Open the Application
-open your browser and visit:
-http://localhost:3000
-[Open Connectly](http://localhost:3000)
-🌐 Application Features
 
+Application URL:
+http://localhost:3000/⁠
+
+🌐 Application Features
 🏠 Home
 View posts and interact with them through likes and comments.
 🔎 Explore
