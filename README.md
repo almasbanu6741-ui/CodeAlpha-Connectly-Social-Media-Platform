@@ -101,6 +101,7 @@ Run: node server.js
 4. Open the Application
 open your browser and visit:
 http://localhost:3000
+[Open Connectly](http://localhost:3000)
 🌐 Application Features
 
 🏠 Home
