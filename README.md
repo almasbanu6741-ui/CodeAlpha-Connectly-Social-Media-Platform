@@ -100,8 +100,7 @@ npm install
 Run: node server.js
 4. Open the Application
 
-Application URL:
-http://localhost:3000/⁠
+**Application URL:** [http://localhost:3000/](http://localhost:3000/)
 
 🌐 Application Features
 🏠 Home
