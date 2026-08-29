@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connectly - Social Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h1>Connectly</h1>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Profile</a>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <!-- Profile Section -->
+        <section class="profile-section">
+
+            <h2>My Profile</h2>
+
+            <div class="profile-card">
+
+                <div class="profile-picture">
+    <img id="profileImage" src="" alt="Profile Picture">
+</div>
+
+<input type="file" id="profileImageInput" accept="image/*" onchange="changeProfilePicture()">
+
+                <div class="profile-details">
+
+                    <h2 id="profileUsername">Almas</h2>
+
+                    <p id="profileBio">
+                        Welcome to my Connectly profile! 👋
+                    </p>
+
+                    <div class="profile-stats">
+                        <span>
+                            <strong id="postCount">0</strong> Posts
+                        </span>
+
+                        <span>
+                            <strong id="followerCount">0</strong> Followers
+                        </span>
+
+                        <span>
+                            <strong id="followingCount">0</strong> Following
+                        </span>
+                    </div>
+
+                    <button onclick="editProfile()">Edit Profile</button>
+                    <button onclick="toggleFollow()" id="followButton">Follow</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Create Post -->
+        <section class="create-post">
+
+            <h2>Create a Post</h2>
+
+            <textarea
+                id="postText"
+                placeholder="What's on your mind?"
+            ></textarea>
+
+            <input
+                type="file"
+                id="postImage"
+                accept="image/*"
+            >
+
+            <button onclick="createPost()">Post</button>
+
+        </section>
+
+
+        <!-- Home Feed -->
+        <section>
+
+            <h2>Home Feed</h2>
+
+            <div id="postsContainer">
+                <p>No posts yet. Create your first post! 😊</p>
+            </div>
+
+        </section>
+        <!-- Explore Section -->
+        <section class="explore-section">
+
+            <h2>Explore 🔍</h2>
+
+            <div id="exploreContainer">
+                <p>Explore posts coming soon... 🚀</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js?v=2"></script>
+
+</body>
+</html>
