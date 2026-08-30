@@ -1,8 +1,8 @@
-# 🌐 Connectly - Social Media Platform
+ 🌐 Connectly - Social Media Platform
 
 A full-stack social media platform developed as part of **CodeAlpha Task 2**. Connectly allows users to create profiles, share posts, interact through likes and comments, follow other users, and explore content through a simple and user-friendly interface.
 
-## 🚀 Features
+ 🚀 Features
 
 - 👤 User Profile
   - View profile information
@@ -100,7 +100,8 @@ npm install
 Run: node server.js
 4. Open the Application
 
-**Application URL:** [http://localhost:3000/](http://localhost:3000/)
+Application URL:
+http://localhost:3000/⁠
 
 🌐 Application Features
 🏠 Home
